@@ -1,0 +1,78 @@
+/* 🌟 Social Media & Video Section */
+.social-media-section {
+    background: var(--gray);
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .social-media-section h2 {
+    font-size: 2rem;
+    color: var(--navy-blue);
+    margin-bottom: 20px;
+  }
+  
+  .video-wrapper {
+    max-width: 800px;
+    margin: 0 auto 40px;
+  }
+  
+  .video-wrapper iframe {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  /* 🌟 Social Media Feeds */
+  .social-feeds {
+    background: var(--white);
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+  }
+  
+  .feeds {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .feed {
+    width: 350px;
+    background: var(--white);
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 🌟 Follow Us Buttons */
+  .social-buttons {
+    text-align: center;
+  }
+  
+  .social-buttons .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-buttons .btn {
+    padding: 12px 25px;
+    font-size: 1rem;
+  }
+  
+  /* ✅ Fully Responsive */
+  @media (max-width: 768px) {
+    .feeds {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .feed {
+      width: 100%;
+    }
+  
+    .social-buttons .buttons {
+      flex-direction: column;
+    }
+  }
+  
