@@ -1,10 +1,28 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./styles/Navbar.css"; // Import Navbar styles
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  useEffect(() => {
+    // Detect screen size
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Run on mount
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const toggleDropdown = () => {
+    setDropdownOpen((prev) => !prev);
+  };
+
 
   // Function to close the menu when a link is clicked
   const closeMenu = () => {
@@ -27,12 +45,17 @@ const Navbar = () => {
 
         {/* Services Dropdown */}
         <div className="dropdown" onMouseEnter={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>
-          <Link to="/services" onClick={closeMenu}>Services ▾</Link>
+        <button onClick={isSmallScreen ? toggleDropdown : undefined} className="dropdown-btn">
+          <Link to="/services" onClick={!isSmallScreen ? undefined : toggleDropdown}>
+            Services ▾
+          </Link>
+        </button>
           {dropdownOpen && (
             <div className="dropdown-menu">
               <Link to="/rehabilitation" onClick={closeMenu}>Rehabilitation</Link>
               <Link to="/services/counseling" onClick={closeMenu}>Counseling</Link>
               <Link to="/services/wellness" onClick={closeMenu}>Wellness</Link>
+              <Link to="/massage" onClick={closeMenu}>Massage</Link>
             </div>
           )}
         </div>

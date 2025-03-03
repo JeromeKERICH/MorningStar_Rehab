@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./styles/Overview.css";
 import { Link } from "react-router-dom";
 
 const ScholarshipOverview = () => {
+
+  useEffect(() => {
+    scrollTo(0,0);
+  }, []);
   return (
     <section className="scholarship-hero">
       <div className="scholarship-content">

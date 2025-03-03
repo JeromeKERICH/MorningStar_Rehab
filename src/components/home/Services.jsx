@@ -1,6 +1,7 @@
 import React from "react";
 import { FaHospital, FaComments, FaHotTub, FaDumbbell, FaSpa } from "react-icons/fa";
 import { TbMassage } from "react-icons/tb";
+import { Link } from "react-router-dom";
 import { IoArrowForward } from "react-icons/io5"; // Import arrow icon
 import "./styles/Services.css";
 
@@ -47,9 +48,9 @@ const ServicesOverview = () => {
             <div className="service-icon">{service.icon}</div>
             <h3 className="service-title">{service.title}</h3>
             <p className="service-description">{service.description}</p>
-            <a href={service.link} className="learn-more">
+            <Link to={service.link} className="learn-more">
               Learn More <IoArrowForward className="arrow-icon" />
-            </a>
+            </Link>
           </div>
         ))}
       </div>
