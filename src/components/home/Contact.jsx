@@ -13,7 +13,7 @@ const Contact = () => {
           <div className="contact-info">
             <div className="contact-item">
               <FaMapMarkerAlt className="icon" />
-              <p>MSEF Rehabilitation & Counseling Centre, [Location]</p>
+              <p>MSEF Rehabilitation & <br></br>Counseling Centre, Mosoriot Nandi County</p>
             </div>
 
             <div className="contact-item">
@@ -24,6 +24,11 @@ const Contact = () => {
             <div className="contact-item">
               <FaEnvelope className="icon" />
               <p>info@msefrehab.org</p>
+            </div>
+
+            <div className="contact-item">
+              <FaWhatsapp className="icon"/>
+              <p><a href="https://wa.me/254742935769">Chat on WhatsApp</a></p>
             </div>
 
            

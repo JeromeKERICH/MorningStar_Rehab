@@ -74,6 +74,10 @@
   .social-buttons {
     text-align: center;
   }
+
+  .social-buttons a {
+    text-decoration: none;
+  }
   
   .social-buttons .buttons {
     display: flex;

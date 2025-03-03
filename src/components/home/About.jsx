@@ -18,7 +18,7 @@ const About = () => {
 
           {/* Centered CTA Button */}
           <div className="about-cta">
-            <Link to="/about" className="btn btn-secondary">
+            <Link to="/aboutus" className="btn btn-secondary">
               Learn More About Us
             </Link>
           </div>
