@@ -1,7 +1,11 @@
-import React from 'react';
+import { useEffect } from 'react';
 import './styles/CounselOverview.css';
 
 const CounselingServices = () => {
+
+  useEffect(() => {
+    scrollTo(0,0);
+  }, []);
   return (
     <div className="counseling-page">
         <h1 className="rehab-heading">Counseling Program</h1>

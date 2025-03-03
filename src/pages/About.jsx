@@ -4,7 +4,7 @@ import WhyMSEF from '../components/about/Why'
 import CTA2 from '../components/about/CTA2'
 import FounderStory from '../components/about/Founder'
 
-const About = () => {
+const AboutUs = () => {
   return (
     <div>
       <AboutMSEF/>
@@ -15,4 +15,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AboutUs

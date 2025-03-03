@@ -1,7 +1,11 @@
 import React from 'react';
 import './styles/Gym.css';
+import { useEffect } from 'react';
 
 const GymExercise = () => {
+  useEffect(() => {
+      scrollTo(0,0);
+    }, []);
   return (
     <div className="gym-page">
         <h1 className="gym-heading">Gym & Physical Exercise Program</h1>

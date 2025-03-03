@@ -1,7 +1,11 @@
 import React from 'react';
 import './styles/Massage.css';
+import { useEffect } from 'react';
 
 const MassageTherapy = () => {
+  useEffect(() => {
+      scrollTo(0,0);
+    }, []);
   return (
     <div className="massage-page">
         <h1 className="massage-heading">Massage Therapy Program</h1>

@@ -1,6 +1,5 @@
 import { Routes, Route } from "react-router-dom";  
 import Home from "./pages/Home";
-import About from "./pages/About";
 import AnonymousForm from "./pages/AnonymousPage";
 import Donation from "./pages/DonationPage";
 import DonationImpact from "./pages/DonationMore";
@@ -11,6 +10,7 @@ import GymExercise from "./pages/Gym";
 import SaunaWellness from "./pages/Sauna";
 import MassageTherapy from "./pages/Massage";
 import BlogSection from "./pages/Blog";
+import AboutUs from "./pages/About";
 
 
 
@@ -19,7 +19,7 @@ function AppRoutes() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/aboutus" element={<AboutUs/>} />
       <Route path="anonymousform" element={<AnonymousForm />} />
       <Route path="donation" element={<Donation/>}/>
       <Route path="donationimpact" element={<DonationImpact/>}/>

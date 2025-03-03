@@ -1,7 +1,12 @@
 import React from 'react';
+import { useEffect } from 'react';
 import './styles/Sauna.css';
 
 const SaunaWellness = () => {
+
+  useEffect(() => {
+      scrollTo(0,0);
+    }, []);
   return (
     <div className="wellness-page">
       <h1 className="wellness-heading">Sauna & Wellness Program</h1>

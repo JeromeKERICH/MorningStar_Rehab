@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/About.css"; // Import the styles
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -17,9 +18,9 @@ const About = () => {
 
           {/* Centered CTA Button */}
           <div className="about-cta">
-            <a href="/about" className="btn btn-secondary">
+            <Link to="/about" className="btn btn-secondary">
               Learn More About Us
-            </a>
+            </Link>
           </div>
         </div>
 

@@ -16,8 +16,9 @@
 /* Logo */
 .logo h1 {
   margin: 0;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.6rem;
   font-weight: bold;
   color: var(--goldenrod);
 }
@@ -25,6 +26,7 @@
 .logo span {
   display: block;
   font-size: 1rem;
+  text-transform: capitalize;
   color: var(--white);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
