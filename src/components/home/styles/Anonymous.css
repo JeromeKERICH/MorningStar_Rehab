@@ -3,7 +3,10 @@
     position: relative;
     width: 100%;
     padding: 80px 20px;
-    background: url("/assets/main.jpg") center/cover no-repeat;
+    background: 
+    linear-gradient(135deg, rgba(75, 61, 25, 0.7), rgba(151, 147, 138, 0.7)), 
+    url("/assets/main.jpg");
+    background-position: center;
     text-align: center;
     color: var(--white);
     display: flex;

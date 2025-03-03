@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/autoplay";
 import "./styles/HeroSection.css";
 
 const HeroSection = () => {
+
+  useEffect(() => {
+         scrollTo(0, 0);
+          }, []);
+    
+  
   const testimonials = [
     "MSEF saved my life. Their counseling helped me rebuild from scratch. - Jane D.",
     "I found hope and healing when I thought it was impossible. - David M.",
@@ -40,8 +47,8 @@ const HeroSection = () => {
 
         {/* Call-to-Action Buttons */}
         <div className="hero-buttons">
-          <button className="btn btn-primary">Get Help Now</button>
-          <button className="btn btn-secondary">Donate & Change Lives</button>
+          <Link to="/" className="btn btn-primary">Get Help Now</Link>
+          <Link to="donation" className="btn btn-secondary">Donate & Change Lives</Link>
         </div>
       </div>
     </section>

@@ -26,9 +26,7 @@ const Contact = () => {
               <p>info@msefrehab.org</p>
             </div>
 
-            <a href="https://wa.me/254742935769" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
-              <FaWhatsapp className="icon" /> WhatsApp Chat
-            </a>
+           
           </div>
 
           {/* Right: Contact Form */}

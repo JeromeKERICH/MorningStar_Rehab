@@ -54,10 +54,13 @@
     color: var(--dark-gray);
     margin-bottom: 15px;
   }
-  
+  .blog .btn .btn-secondary {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
   /* 🌟 Blog CTA */
   .blog-cta {
     margin-top: 30px;
+   
   }
   
   /* ✅ Responsiveness */

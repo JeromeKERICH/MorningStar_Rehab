@@ -1,129 +1,95 @@
-/* 🌟 Inpatient Rehabilitation Section */
-.inpatient-rehab {
-    width: 100%;
-    padding: 60px 20px;
-    background: var(--gray);
+.rehab-inpatient {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Centered heading */
+.rehab-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Description */
+.rehab-description {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto 30px;
+}
+
+/* Key Features Grid */
+.rehab-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns on big screens */
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Individual Boxes */
+.rehab-box {
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.rehab-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Box Headings */
+.rehab-box h2 {
+  font-size: 1.3rem;
+  color: var(--goldenrod);
+  margin-bottom: 10px;
+}
+
+/* Box Text */
+.rehab-box p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.cta-button {
+  background: var(--goldenrod);
+  color: #fff;
+  padding: 12px 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .rehab-grid {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for tablets */
   }
-  
-  .inpatient-rehab .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1100px;
-    margin: 0 auto;
-    gap: 40px;
+}
+
+@media (max-width: 768px) {
+
+  .rehab-heading {
+    font-size: 1.5rem;
   }
-  
-  /* 🌟 Left Side - Text Content */
-  .text-content {
-    flex: 1;
-    text-align: left;
+  .rehab-inpatient {
+    padding: 10px 5px;
   }
-  
-  .text-content h2 {
-    font-size: 2.2rem;
-    color: var(--navy-blue);
-    margin-bottom: 15px;
+  .rehab-grid {
+    grid-template-columns: 1fr; /* One column for small screens */
   }
-  
-  .text-content .intro-text {
-    font-size: 1.1rem;
-    color: var(--dark-gray);
-    margin-bottom: 30px;
+
+
+  .rehab-box p  {
+    text-align: start;
   }
-  
-  .features-section h3, .process-section h3 {
-    font-size: 1.6rem;
-    color: var(--goldenrod);
-    margin-bottom: 10px;
-  }
-  
-  .feature-list, .process-list {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .feature-list li, .process-list li {
-    font-size: 1rem;
-    color: var(--dark-gray);
-    margin-bottom: 10px;
-    padding-left: 25px;
-    position: relative;
-  }
-  
-  .feature-list li::before, .process-list li::before {
-    content: "✔️";
-    position: absolute;
-    left: 0;
-    color: var(--orange);
-    font-size: 1.2rem;
-  }
-  
-  /* 🌟 CTA Button */
-  .cta {
-    margin-top: 20px;
-  }
-  
-  .cta .btn-primary {
-    font-size: 1.2rem;
-    padding: 12px 24px;
-    border-radius: 5px;
-    background-color: var(--goldenrod);
-    color: var(--white);
-    transition: all 0.3s ease-in-out;
-  }
-  
-  .cta .btn-primary:hover {
-    background-color: #C2921D;
-  }
-  
-  /* 🌟 Right Side - Image */
-  .image-content {
-    flex: 1;
-  }
-  
-  .image-content img {
-    width: 100%;
-    border-radius: 10px;
-    object-fit: cover;
-    max-height: 450px;
-  }
-  
-  /* 🌟 Responsive Design */
-  @media (max-width: 900px) {
-    .inpatient-rehab .container {
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .text-content {
-      text-align: center;
-    }
-  
-    .features-section, .process-section {
-      text-align: center;
-    }
-  
-    .image-content img {
-      max-height: 350px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .text-content h2 {
-      font-size: 1.8rem;
-    }
-  
-    .text-content .intro-text {
-      font-size: 1rem;
-    }
-  
-    .features-section h3, .process-section h3 {
-      font-size: 1.3rem;
-    }
-  
-    .feature-list li, .process-list li {
-      font-size: 0.9rem;
-    }
-  }
-  
+}

@@ -1,54 +1,47 @@
-import React from "react";
-import "./styles/Inpatient.css"
-import inpatientImg from "/assets/support.jpg"; // Make sure to add an image to the assets folder
+import React from 'react';
+import './styles/Inpatient.css'; // Import CSS file
 
-const InpatientRehab = () => {
+const RehabInpatient = () => {
   return (
-    <section className="inpatient-rehab">
-      <div className="container">
-        {/* Left Side - Text Content */}
-        <div className="text-content">
-          <h2>🏥 Inpatient Rehabilitation (3-Month Program)</h2>
-          <p className="intro-text">
-            A structured residential program** designed for individuals struggling with alcohol and substance addiction. Our approach combines medical, psychological, and lifestyle support to ensure long-term recovery.
-          </p>
+    <section className="rehab-inpatient">
+      {/* Heading */}
+      <h1 className="rehab-heading">Inpatient (3-Month Program)</h1>
 
-          <div className="features-section">
-            <h3>📌 Key Features:</h3>
-            <ul className="feature-list">
-              <li><strong>Medical Detox:</strong> Supervised withdrawal process.</li>
-              <li><strong>Psychotherapy & Counseling:</strong> Individual and group therapy.</li>
-              <li><strong>Life Skills & Coping Strategies:</strong> Building self-control & resilience.</li>
-              <li><strong>Healthy Routine & Activities:</strong> Includes fitness, wellness, and spiritual programs.</li>
-              <li><strong>Follow-Up Support:</strong> 6-month monitoring after discharge.</li>
-            </ul>
-          </div>
+      {/* Description */}
+      <p className="rehab-description">
+        A structured residential program for individuals struggling with alcohol and substance addiction.
+      </p>
 
-          <div className="process-section">
-            <h3>📌 Process:</h3>
-            <ol className="process-list">
-              <li><strong>Admission & Assessment:</strong> Initial medical & psychological evaluation.</li>
-              <li><strong>Detox & Stabilization:</strong> Medical intervention if necessary.</li>
-              <li><strong>Treatment & Therapy:</strong> CBT, group therapy, and spiritual guidance.</li>
-              <li><strong>Recovery & Reintegration:</strong> Skills training & reintegration into society.</li>
-              <li><strong>Post-Treatment Monitoring:</strong> Follow-up support & family engagement.</li>
-            </ol>
-          </div>
-
-          <div className="cta">
-            <a href="/enroll-inpatient" className="btn btn-primary">
-              Enroll in the Inpatient Program
-            </a>
-          </div>
+      {/* Key Features Grid */}
+      <div className="rehab-grid">
+        <div className="rehab-box">
+          <h2>Medical Detox</h2>
+          <p>A supervised withdrawal process that helps individuals safely manage withdrawal symptoms while their body clears substances.</p>
+        </div>
+        <div className="rehab-box">
+          <h2>Psychotherapy & Counseling</h2>
+          <p>Professional therapy sessions, both individual and group, to address the root causes of addiction and provide emotional support.</p>
+        </div>
+        <div className="rehab-box">
+          <h2>Life Skills & Coping Strategies</h2>
+          <p>Training on self-control, decision-making, and resilience to help individuals reintegrate into society and avoid relapse. </p>
+        </div>
+        <div className="rehab-box">
+          <h2>Healthy Routine & Activities</h2>
+          <p>A structured daily schedule that includes physical fitness, wellness programs, and spiritual practices to promote overall well-being.</p>
+        </div>
+        <div className="rehab-box">
+          <h2>Follow-Up Support</h2>
+          <p>A post-rehabilitation monitoring program for six months to ensure long-term recovery and provide ongoing guidance and encouragement.</p>
         </div>
 
-        {/* Right Side - Image */}
-        <div className="image-content">
-          <img src={inpatientImg} alt="Inpatient Rehabilitation" />
-        </div>
       </div>
+      {/* CTA Button */}
+      <a href="registration" className="cta-button">
+        Enroll in the Inpatient Program
+      </a>
     </section>
   );
-};
+}
 
-export default InpatientRehab;
+export default RehabInpatient;

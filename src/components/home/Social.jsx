@@ -8,17 +8,17 @@ const SocialMediaSection = () => {
       <div className="container">
         {/* YouTube Video */}
         <div className="video-wrapper">
-          <h2>How MSEF Transforms Lives</h2>
-          <iframe
-            width="100%"
-            height="400"
-            src="https://www.youtube.com/embed/IGeuQurEzqg"
-            title="MSEF Documentary"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </div>
+      <h2>How MSEF Transforms Lives</h2>
+      <div className="video-container">
+        <iframe
+          src="https://www.youtube.com/embed/mObq_kOe40o"
+          title="MSEF Documentary"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
 
         {/* Follow Us Buttons */}
         <div className="social-buttons">

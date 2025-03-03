@@ -15,25 +15,25 @@ const services = [
     icon: <FaComments />,
     title: "Counseling & Therapy",
     description: "Expert counseling for emotional, social, and mental well-being.",
-    link: "/services/counseling",
+    link: "/counselingservices",
   },
   {
     icon: <FaHotTub />,
     title: "Sauna & Wellness Programs",
     description: "Physical and mental wellness through relaxation therapies.",
-    link: "/services/sauna",
+    link: "/saunawellness",
   },
   {
     icon: <FaDumbbell />,
     title: "Gym & Fitness",
     description: "Supporting recovery through physical fitness and stress management.",
-    link: "/services/gym",
+    link: "/gymexercise",
   },
   {
     icon: <TbMassage />,
     title: "Massage Therapy",
     description: "Healing and relaxation for mental and physical health.",
-    link: "/services/massage",
+    link: "massagetherapy",
   },
 ];
 

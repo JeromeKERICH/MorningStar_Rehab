@@ -52,17 +52,18 @@
   /* 🌟 Service Descriptions */
   .service-description {
     font-size: 1rem;
-    color: var(--dark-gray);
+    color: #555;
   }
   
   .learn-more {
     margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1rem;
     font-weight: bold;
-    color: var(--goldenrod);
+    color: #222;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
   }

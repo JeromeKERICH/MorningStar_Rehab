@@ -45,7 +45,7 @@ const LatestBlog = () => {
         ))}
       </div>
       <div className="blog-cta">
-        <Link to="/blog" className="btn btn-primary">
+        <Link to="/blogsection" className="btn btn-primary">
           View All Blogs
         </Link>
       </div>
