@@ -11,7 +11,7 @@ const CTA2 = () => {
       </p>
       <div className="cta-clicks">
         <a href="/join" className="cta-click primary">Join the Program</a>
-        <a href="/contact" className="cta-click secondary">Talk With a Counselor</a>
+        <a href="tel:+254742935769" className="cta-click secondary">Talk With a Counselor</a>
       </div>
     </section>
   );

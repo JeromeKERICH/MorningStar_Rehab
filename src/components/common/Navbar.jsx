@@ -41,7 +41,7 @@ const Navbar = () => {
       {/* Navigation Links */}
       <nav className={`nav-links ${menuOpen ? "open" : ""}`}>
         <Link to="/" onClick={closeMenu}>Home</Link>
-        <Link to="/about" onClick={closeMenu}>About Us</Link>
+        <Link to="/aboutus" onClick={closeMenu}>About Us</Link>
 
         {/* Services Dropdown */}
         <div className="dropdown" onMouseEnter={() => setDropdownOpen(true)} onMouseLeave={() => setDropdownOpen(false)}>

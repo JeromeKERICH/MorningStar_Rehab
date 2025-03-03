@@ -61,6 +61,7 @@ const Footer = () => {
             <a href="#"><FaYoutube /></a>
           </div>
         </div>
+      
       </div>
 
       {/* Dark Mode Toggle */}
@@ -70,7 +71,8 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="footer-bottom">
-        <p>© 2025 MSEF Rehabilitation & Counseling Centre. All Rights Reserved.</p>
+        <p>© 2025 MSEF Rehabilitation & Counseling Centre. All Rights Reserved. <br></br>
+        Designed by <a href="https://www.trichenest.com/">Triche Nest (Kerich)</a></p>
       </div>
 
       {/* Back to Top Button */}
