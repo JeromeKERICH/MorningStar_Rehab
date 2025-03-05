@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube, FaArrowUp, FaMoon, FaSun } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaYoutube, FaArrowUp, FaMoon, FaSun, FaInstagram, FaTiktok } from "react-icons/fa";
 import "./styles/Footer.css";
 
 const Footer = () => {
@@ -32,10 +33,10 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="/aboutus">About</a></li>
-            <li><a href="/rehabilitation">Services</a></li>
-            <li><a href="/blogsection">Blog</a></li>
-            <li><a href="/donation">Donate</a></li>
+            <li><Link to="/aboutus">About</Link></li>
+            <li><Link to="/rehabilitation">Services</Link></li>
+            <li><Link to="/blogsection">Blog</Link></li>
+            <li><Link to="/donation">Donate</Link></li>
           </ul>
         </div>
 
@@ -54,10 +55,11 @@ const Footer = () => {
         <div className="footer-section social-media">
           <h3>Follow Us</h3>
           <div className="social-icons">
-            <a href="#"><FaFacebookF /></a>
-            <a href="#"><FaTwitter /></a>
-            <a href="#"><FaLinkedinIn /></a>
-            <a href="#"><FaYoutube /></a>
+            <a href="https://facebook.com/morningstarmsef"><FaFacebookF /></a>
+            <a href="https://www.instagram.com/morningstar.foundation/"><FaInstagram /></a>
+            <a href="https://www.linkedin.com/company/morningstar-rehabilitation-counseling-centre/ "><FaLinkedinIn /></a>
+            <a href="https://www.tiktok.com/@morningstar.foundation?is_from_webapp=1&sender_device=pc"><FaTiktok/></a>
+            <a href="https://www.youtube.com/@morningstar.foundation"><FaYoutube/></a>
           </div>
         </div>
       
