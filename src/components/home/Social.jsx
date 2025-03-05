@@ -33,8 +33,10 @@ const SocialMediaSection = () => {
             <a href="https://www.tiktok.com/@morningstar.foundation?is_from_webapp=1&sender_device=pc" className="btn btn-secondary">
               <FaTiktok className="icon" /> TikTok
             </a>
-            <a href="https://www.youtube.com/@morningstar.foundation" className="btn btn-secondary">YouTube</a>
-            <FaYoutube className="icon"/>
+            <a href="https://www.youtube.com/@morningstar.foundation" className="btn btn-secondary">
+            <FaYoutube className="icon"/> YouTube
+            </a>
+            
           </div>
         </div>
       </div>
