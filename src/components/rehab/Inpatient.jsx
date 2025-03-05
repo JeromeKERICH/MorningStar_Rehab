@@ -37,7 +37,7 @@ const RehabInpatient = () => {
 
       </div>
       {/* CTA Button */}
-      <a href="registration" className="cta-button">
+      <a href="https://forms.gle/8EeLnfszcXWCLeuc7" className="cta-button">
         Enroll in the Inpatient Program
       </a>
     </section>

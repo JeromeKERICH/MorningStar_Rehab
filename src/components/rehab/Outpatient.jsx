@@ -51,7 +51,7 @@ const OutpatientRehab = () => {
 
       {/* CTA Button */}
       <div className="cta-container">
-        <a href="/registration" className="cta-button">Join the Outpatient Program</a>
+        <a href="https://forms.gle/rgFtXLFjjYda4Xcv7" className="cta-button">Join the Outpatient Program</a>
       </div>
     </section>
   );

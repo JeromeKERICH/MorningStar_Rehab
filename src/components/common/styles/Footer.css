@@ -186,7 +186,7 @@
   @media (max-width: 768px) {
     .footer-container {
       flex-direction: column;
-      text-align: center;
+      text-align: start;
     }
   
     .footer-section {
@@ -198,7 +198,7 @@
     }
   
     .newsletter form {
-      align-items: center;
+      align-items: start;
     }
   
     .newsletter input {
@@ -207,6 +207,10 @@
   
     .newsletter button {
       width: 90%;
+    }
+
+    .footer-bottom p {
+      text-align: start;
     }
   }
   

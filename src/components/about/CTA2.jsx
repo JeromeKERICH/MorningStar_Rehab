@@ -10,7 +10,7 @@ const CTA2 = () => {
         Join our program today or talk with a professional counselor to get started on your journey to healing.
       </p>
       <div className="cta-clicks">
-        <a href="/join" className="cta-click primary">Join the Program</a>
+        <a href="/rehabilitation" className="cta-click primary">Join the Program</a>
         <a href="tel:+254742935769" className="cta-click secondary">Talk With a Counselor</a>
       </div>
     </section>

@@ -64,14 +64,8 @@ strong {
   transition: all 0.3s ease-in-out;
 }
 
-.btn-primary {
-  background-color: var(--goldenrod);
-  color: var(--white);
-}
 
-.btn-primary:hover {
-  background-color: #C2921D;
-}
+
 
 .btn-secondary {
   background-color: var(--navy-blue);
@@ -80,9 +74,7 @@ strong {
   
 }
 
-.btn-secondary:hover {
-  background-color: #003366;
-}
+
 
 .btn-danger {
   background-color: var(--orange);

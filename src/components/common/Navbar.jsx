@@ -53,9 +53,10 @@ const Navbar = () => {
           {dropdownOpen && (
             <div className="dropdown-menu">
               <Link to="/rehabilitation" onClick={closeMenu}>Rehabilitation</Link>
-              <Link to="/services/counseling" onClick={closeMenu}>Counseling</Link>
-              <Link to="/services/wellness" onClick={closeMenu}>Wellness</Link>
-              <Link to="/massage" onClick={closeMenu}>Massage</Link>
+              <Link to="/counselingservices" onClick={closeMenu}>Counseling</Link>
+              <Link to="/saunawellness" onClick={closeMenu}>Sauna & Wellness</Link>
+              <Link to="/massagetherapy" onClick={closeMenu}>Massage</Link>
+              <Link to="gymexercise" onClick={closeMenu}>Gym & Fitness</Link>
             </div>
           )}
         </div>

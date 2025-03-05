@@ -88,9 +88,7 @@ button {
   transition: background 0.3s ease-in-out;
 }
 
-.dropdown-menu a:hover {
-  background: var(--goldenrod);
-}
+
 
 /* CTA Button */
 .call-us {
@@ -175,5 +173,6 @@ button {
 
   .dropdown-menu a {
     display: block;
+    color: var(--white);
   }
 }
