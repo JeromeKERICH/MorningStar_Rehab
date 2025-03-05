@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa"; // Import social icons
+import { FaFacebook, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa"; // Import social icons
 import "./styles/Social.css"; // Import Social styles
 
 const SocialMediaSection = () => {
@@ -24,7 +24,7 @@ const SocialMediaSection = () => {
         <div className="social-buttons">
           <h2>Follow Us</h2>
           <div className="buttons">
-            <a href="https:facebook.com/morningstarmsef" className="btn btn-primary">
+            <a href="https://facebook.com/morningstarmsef" className="btn btn-primary">
               <FaFacebook className="icon" /> Facebook
             </a>
             <a href="https://www.instagram.com/morningstar.foundation/" className="btn btn-danger">
@@ -33,6 +33,8 @@ const SocialMediaSection = () => {
             <a href="https://www.tiktok.com/@morningstar.foundation?is_from_webapp=1&sender_device=pc" className="btn btn-secondary">
               <FaTiktok className="icon" /> TikTok
             </a>
+              <FaYoutube className="icon"/>
+            <a href="https://www.youtube.com/@morningstar.foundation" className="btn btn-secondary">YouTube</a>
           </div>
         </div>
       </div>
