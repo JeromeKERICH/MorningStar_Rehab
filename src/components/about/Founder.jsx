@@ -1,4 +1,5 @@
-import React from "react";
+
+import { Link } from "react-router-dom";
 import "./styles/Founder.css";
 
 const FounderStory = () => {
@@ -17,7 +18,7 @@ const FounderStory = () => {
             His unwavering dedication has transformed countless lives, 
             bringing hope and healing to individuals and families.
           </p>
-          <a href="/about" className="founder-cta">Learn More</a>
+          <Link to="/founderbio" className="founder-cta">Learn More</Link>
         </div>
 
         {/* Right Side: Image */}
@@ -27,18 +28,6 @@ const FounderStory = () => {
       </div>
 
       {/* Video Section */}
-      <div className="founder-video">
-        <h2>A Message from the Founder</h2>
-        <iframe
-          width="100%"
-          height="400"
-          src="https://www.youtube.com/embed/lGeuQurEzqg"
-          title="Message from the Founder"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        ></iframe>
-      </div>
     </section>
   );
 };

@@ -61,7 +61,7 @@ const GymExercise = () => {
 
       {/* Call to Action */}
       <div className="cta-container">
-          <a href="/fitness-program" className="cta-button">Join the Fitness Program</a>
+          <a href="/fitness-program" className="cta-button">Coming Soon</a>
       </div>
     </div>
   );

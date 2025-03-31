@@ -62,7 +62,7 @@ const SaunaWellness = () => {
 
       {/* Call-To-Action */}
       <div className="cta-container">
-        <a href="/sauna-wellness-booking" className="cta-button">Book a Wellness Session</a>
+        <a href="/sauna-wellness-booking" className="cta-button">Coming Soon</a>
       </div>
     </div>
   );

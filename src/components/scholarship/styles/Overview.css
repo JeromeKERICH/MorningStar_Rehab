@@ -1,8 +1,7 @@
 /* 🌟 Scholarship Hero Section */
 .scholarship-hero {
     width: 100%;
-    min-height: 60vh;
-    background: var(--gray); /* Light gray background for a clean look */
+    height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,15 +16,21 @@
   .scholarship-hero h1 {
     font-size: 2.8rem;
     font-weight: bold;
-    color: var(--navy-blue);
+    color: goldenrod;
     margin-bottom: 15px;
+  }
+
+  .scholarship-hero span {
+    color: var(--navy-blue);
   }
   
   .scholarship-hero p {
-    font-size: 1.2rem;
-    color: var(--dark-gray);
-    line-height: 1.6;
+    font-size: 1rem;
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
     margin-bottom: 30px;
+    line-height: 1.6;
   }
 
  

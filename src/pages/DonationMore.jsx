@@ -116,7 +116,7 @@ const DonationImpact = () => {
       {/* CTA */}
       <div className="cta">
         <h2>Be Part of the Change – Donate Today!</h2>
-        <Link to="/donate" className="btn btn-primary">Donate Now</Link>
+        <Link to="/donation" className="btn btn-primary">Donate Now</Link>
       </div>
     </section>
   );

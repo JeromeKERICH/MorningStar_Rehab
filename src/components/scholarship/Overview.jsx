@@ -10,7 +10,7 @@ const ScholarshipOverview = () => {
   return (
     <section className="scholarship-hero">
       <div className="scholarship-content">
-        <h1>MSEF Scholarship Program</h1>
+        <h1>MSEF Scholarship <span>Program</span></h1>
         <p>
           The MSEF Scholarship Program is designed to provide financial assistance to 
           individuals struggling with alcohol and substance abuse, as well as those facing 

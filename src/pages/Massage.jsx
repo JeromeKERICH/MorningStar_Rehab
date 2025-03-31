@@ -90,7 +90,7 @@ const MassageTherapy = () => {
       
       {/* Call to Action */}
       <div className="cta-container">
-          <a href="/book-massage" className="cta-button">Book a Massage Session</a>
+          <a href="/book-massage" className="cta-button" onClick={"disable"}>Coming Soon</a>
         </div>
     </div>
   );

@@ -10,7 +10,7 @@ const articles = [
     excerpt: "Learn the essential steps to overcoming addiction and rebuilding your life...",
     image: "assets/adct1.jpg",
     category: "Rehabilitation & Recovery",
-    link: "/breaking-free-from-addiction"
+    link: "/breakingfree"
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const articles = [
     excerpt: "Discover effective ways to cope with stress, anxiety, and daily pressures...",
     image: "assets/stress.jpg",
     category: "Mental Health",
-    link: "/managing-stress-anxiety"
+    link: "/anxiety"
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const articles = [
     excerpt: "Overcome past traumas and regain control over your mental well-being...",
     image: "assets/mental.jpg",
     category: "Mental Health",
-    link: "/healing-from-trauma"
+    link: "/trauma"
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const articles = [
     excerpt: "Rebuilding trust and connection with your loved ones after addiction recovery...",
     image: "assets/bond.jpg",
     category: "Family & Relationships",
-    link: "/strengthening-family-bonds"
+    link: "/familyrehab"
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const articles = [
     excerpt: "Tips on fitness, nutrition, and self-care to maintain a healthy lifestyle...",
     image: "assets/healthy.jpg",
     category: "Wellness & Lifestyle",
-    link: "/healthy-habits-balanced-life"
+    link: "/healthytips"
   },
   {
     id: 6,
@@ -50,7 +50,7 @@ const articles = [
     excerpt: "Discover how quality sleep can transform your energy and mental clarity...",
     image: "/assets/sleep.jpg",
     category: "Wellness & Lifestyle",
-    link: "/sleephygiene"
+    link: "/goodsleep"
   },
 
   // Counseling & Therapy
@@ -60,7 +60,7 @@ const articles = [
     excerpt: "Learn Cognitive Behavioral Therapy (CBT) techniques to control anxious thinking...",
     image: "/assets/cbt.jpg",
     category: "Counseling & Therapy",
-    link: ""
+    link: "/cbt"
   },
   {
     id: 8,
@@ -68,7 +68,7 @@ const articles = [
     excerpt: "Explore how group therapy helps individuals feel heard, supported, and encouraged...",
     image: "/assets/gterapy.jpg",
     category: "Counseling & Therapy",
-    link: ""
+    link: "/grouptherapy"
   },
 
   // Spiritual Growth
@@ -78,7 +78,7 @@ const articles = [
     excerpt: "Discover how spirituality can be a powerful tool in emotional and mental healing...",
     image: "/assets/group.jpg",
     category: "Spiritual Growth",
-    link: ""
+    link: "/faithBasedhealing"
   },
   {
     id: 10,
@@ -86,7 +86,7 @@ const articles = [
     excerpt: "How prayer and meditation can enhance your spiritual journey and bring peace...",
     image: "/assets/inner.jpg",
     category: "Spiritual Growth",
-    link: ""
+    link: "/prayermeditation"
   }
 ];
 

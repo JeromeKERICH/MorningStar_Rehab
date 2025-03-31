@@ -61,6 +61,7 @@
   }
   
   /* ✅ Responsive Design */
+
   @media (max-width: 768px) {
     .about {
       padding: 60px 5%;
@@ -78,7 +79,8 @@
     }
   
     .about-image {
-      order: 2; /* Image comes second */
+      order: 2;
+      max-width: 100%;
     }
   }
   
