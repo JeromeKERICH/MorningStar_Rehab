@@ -65,7 +65,7 @@ const CounselingServices = () => {
       </div>
       
       <div className="cta-container">
-          <a href="/specialized-counseling" className="cta-button">Book a Session</a>
+          <a href="https://calendly.com/morningstarrehab25/1-1-with-our-counselor" className="cta-button">Book a Session</a>
         </div>
     </div>
   );

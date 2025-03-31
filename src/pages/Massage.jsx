@@ -6,6 +6,10 @@ const MassageTherapy = () => {
   useEffect(() => {
       scrollTo(0,0);
     }, []);
+
+    const handleButtonClick = () => {
+      alert("Thank you for your inquiry, will keep you posted when this service is running");
+    };
   return (
     <div className="massage-page">
         <h1 className="massage-heading">Massage Therapy Program</h1>
@@ -89,9 +93,12 @@ const MassageTherapy = () => {
       </div>
       
       {/* Call to Action */}
+      {/* Call-To-Action */}
       <div className="cta-container">
-          <a href="/book-massage" className="cta-button" onClick={"disable"}>Coming Soon</a>
-        </div>
+        <button onClick={handleButtonClick} className="cta-button"
+        
+        >Inquire Now</button>
+      </div>
     </div>
   );
 };

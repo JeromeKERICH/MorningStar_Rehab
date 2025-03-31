@@ -22,6 +22,9 @@ import HealthyTips from "./blogpages/HealtyTips";
 import BreakingFree from "./blogpages/BreakFree";
 import Anxiety from "./blogpages/Anxiety";
 import Trauma from "./blogpages/Trauma";
+import SignsOfAddiction from "./blogpages/Signs";
+import SupportOne from "./blogpages/SupportOne";
+import MentalHe from "./blogpages/MentalH";
 
 
 
@@ -52,6 +55,9 @@ function AppRoutes() {
       <Route path="breakingfree" element={<BreakingFree/>}/>
       <Route path="anxiety" element={<Anxiety/>}/>
       <Route path="trauma" element={<Trauma/>}/>
+      <Route path="signsofaddiction" element={<SignsOfAddiction/>}/>
+      <Route path="supportone" element={<SupportOne/>}/>
+      <Route path="mentalhe" element={<MentalHe/>}/>
     </Routes>
   );
 }

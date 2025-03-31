@@ -7,6 +7,10 @@ const SaunaWellness = () => {
   useEffect(() => {
       scrollTo(0,0);
     }, []);
+  const handleButtonClick = () => {
+    alert("Thank you for your inquiry, will keep you posted when this service is running");
+  };
+
   return (
     <div className="wellness-page">
       <h1 className="wellness-heading">Sauna & Wellness Program</h1>
@@ -62,7 +66,9 @@ const SaunaWellness = () => {
 
       {/* Call-To-Action */}
       <div className="cta-container">
-        <a href="/sauna-wellness-booking" className="cta-button">Coming Soon</a>
+        <button onClick={handleButtonClick} className="cta-button"
+        
+        >Inquire Now</button>
       </div>
     </div>
   );

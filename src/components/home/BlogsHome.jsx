@@ -9,21 +9,21 @@ const LatestBlog = () => {
       title: "5 Signs You Need Professional Help for Addiction",
       image: "/assets/addiction.jpg",
       description: "Recognizing when addiction is taking control of your life is the first step toward healing...",
-      link: "/blog/5-signs-addiction-help",
+      link: "/signsofaddiction",
     },
     {
       id: 2,
       title: "How to Support a Loved One in Recovery",
       image: "/assets/support.jpg",
       description: "Supporting a friend or family member through recovery requires patience, empathy, and understanding...",
-      link: "/blog/support-loved-one-recovery",
+      link: "/supportone",
     },
     {
       id: 3,
       title: "Mental Health & Spiritual Well-being",
       image: "/assets/mental.jpg",
       description: "Discover how mental health and spirituality intersect to promote inner peace and resilience...",
-      link: "/blog/mental-health-spirituality",
+      link: "/mentalhe",
     },
   ];
 

@@ -65,10 +65,7 @@ const Footer = () => {
       
       </div>
 
-      {/* Dark Mode Toggle */}
-      <button className="dark-mode-toggle" onClick={toggleDarkMode}>
-        {darkMode ? <FaSun /> : <FaMoon />}
-      </button>
+     
 
       {/* Copyright */}
       <div className="footer-bottom">
@@ -79,8 +76,8 @@ const Footer = () => {
       {/* Back to Top Button */}
       {showScroll && (
         <button className="back-to-top" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-          <FaArrowUp />
-        </button>
+        <FaArrowUp />
+      </button>
       )}
     </footer>
   );

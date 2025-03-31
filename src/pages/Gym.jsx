@@ -6,6 +6,10 @@ const GymExercise = () => {
   useEffect(() => {
       scrollTo(0,0);
     }, []);
+
+    const handleButtonClick = () => {
+      alert("Thank you for your inquiry, will keep you posted when this service is running");
+    };
   return (
     <div className="gym-page">
         <h1 className="gym-heading">Gym & Physical Exercise Program</h1>
@@ -61,7 +65,9 @@ const GymExercise = () => {
 
       {/* Call to Action */}
       <div className="cta-container">
-          <a href="/fitness-program" className="cta-button">Coming Soon</a>
+        <button onClick={handleButtonClick} className="cta-button"
+        
+        >Inquire Now</button>
       </div>
     </div>
   );
