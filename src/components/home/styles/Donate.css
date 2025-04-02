@@ -1,74 +1,39 @@
-/* 🌟 Donate & Support Section */
 .donate-section {
-    padding: 80px 20px;
-    text-align: center;
-    color: var(--white);
-  }
-  
-  .donate-content {
-    max-width: 700px;
-    margin: auto;
-  }
-  
-  .donate-content h2 {
-    color: var(--navy-blue);
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 15px;
-  }
-  
-  .donate-content p {
-    font-size: 1.2rem;
-    margin-bottom: 25px;
-  }
-  
-  /* 🌟 Donation Methods */
-  .donation-methods {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 30px;
-  }
-  
-  .donation-box {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 15px;
-    border-radius: 10px;
-    width: 150px;
-    text-align: center;
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .donation-box span {
-    font-size: 2rem;
-  }
-  
-  .donation-box p {
-    font-size: 1rem;
-    margin-top: 5px;
-    color: black;
-  }
-  
-  .donation-box:hover {
-    transform: scale(1.1);
-  }
-  
-  /* ✅ Responsiveness */
-  @media (max-width: 768px) {
-    .donate-content h2 {
-      font-size: 2rem;
-    }
-  
-    .donate-content p {
-      font-size: 1rem;
-    }
-  
-    .donation-methods {
-      gap: 5px;
-    }
-  
-    .donation-box {
-      width: 100%;
-    }
-  }
-  
+  text-align: center;
+  padding: 40px;
+}
+
+.payment-methods {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.payment-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.payment-icon {
+  font-size: 2rem;
+  color: #333;
+}
+
+.btn-primary {
+  background-color: goldenrod;
+  color: #fff;
+  padding: 12px 24px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.btn-primary:hover {
+  background-color: darkgoldenrod;
+}
