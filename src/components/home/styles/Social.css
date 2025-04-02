@@ -42,7 +42,7 @@
 .social-section h2 {
   font-size: 22px;
   margin-bottom: 15px;
-  color: #333;
+  color: var(--navy-blue);
 }
 
 /* Grid Layout for Social Icons */
@@ -113,7 +113,10 @@
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
 
-
+  .social-section h2 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
 
   .social-grid a {
     width: 50px;

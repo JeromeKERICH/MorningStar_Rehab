@@ -10,7 +10,7 @@ const SocialMediaSection = () => {
         <div className="video-section">
           <h2>How MSEF Transforms Lives</h2>
           <div className="video-grid">
-            {["mObq_kOe40o", "mObq_kOe40o", "mObq_kOe40o"].map((videoId, index) => (
+            {["mObq_kOe40o", "4b4hYN3O4Qk", "Ty_Ub__xrh4"].map((videoId, index) => (
               <div className="video-container" key={index}>
                 <iframe
                   src={`https://www.youtube.com/embed/${videoId}`}

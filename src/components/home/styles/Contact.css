@@ -112,6 +112,11 @@
     text-align: center;
   }
 
+  .contact h2 {
+    font-size: 1.5rem;
+    text-align: start;
+  }
+
   .contact-info, .contact-form {
     width: 100%;
   }

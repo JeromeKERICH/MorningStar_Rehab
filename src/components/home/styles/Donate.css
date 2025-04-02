@@ -3,6 +3,11 @@
   padding: 40px;
 }
 
+
+.donate-content h2 {
+  font-size: 2.5rem;
+}
+
 .payment-methods {
   display: flex;
   justify-content: center;
@@ -36,4 +41,19 @@
 
 .btn-primary:hover {
   background-color: darkgoldenrod;
+}
+
+
+@media (max-width: 768px) {
+  .donate-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .payment-option span{
+    font-size: 1rem;
+  }
+
+  .payment-icon {
+    font-size: 1rem;
+  }
 }
